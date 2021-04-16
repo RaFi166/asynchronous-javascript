@@ -9,13 +9,10 @@ function promiseOne() {
                 console.log('reject successfully');
                 reject();
             }
-
         }, 2000);
     })
-
-
 }
-
+ 
 promiseOne().then(() => {
     console.log('rafi:very good bro');
 })
